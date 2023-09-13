@@ -1,8 +1,6 @@
 import java.util.*;
 public class utilities {
-  public static void printHello (){
-    Scanner sc = new Scanner(System.in);
-    String input = sc.nextLine();
+  public static void printHello (String input){
     if (input.equalsIgnoreCase("Hello")){
       System.out.println("Hello World.");
     }
